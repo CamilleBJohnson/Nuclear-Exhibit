@@ -1,0 +1,110 @@
+/* style.css */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: white;
+    color: #2e841b;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+
+p {
+    color: darkblue;
+}
+
+.map-box {
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    margin: 30px auto;
+}
+
+.us-map {
+    width: 100%;
+    height: auto;
+}
+
+.pin {
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red;
+}
+
+.label {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 13px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+    white-space: nowrap;
+}
+
+.berkeley-pin { top: 49%; left: 3%; }
+.argonne-pin { top: 40%; left: 62%; }
+.brookhaven-pin { top: 37%; left: 86%; }
+
+.lab-page {
+    text-align: left;
+}
+
+.back-link {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.location {
+    font-style: italic;
+    color: darkgreen;
+    margin-top: 0;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.info-card {
+    background: lightgrey;
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.info-card h4 {
+    margin: 0 0 8px 0;
+    color: darkblue;
+}
+
+.info-card p {
+    margin: 0;
+    color: darkblue;
+    font-size: 14px;
+    line-height: 1.4;
+}
